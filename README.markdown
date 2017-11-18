@@ -11,9 +11,11 @@ Aliases
 
 All aliases start with `rkt-`. The rest of the alias describes more or less what the command does.
 
-**`rkt-rm`** Removes all exited containers.
+**`rkt-rm`** Removes all exited pods.
 
 **`rkt-rmi`** Removes all images in the local store, except `stage1` images.
+
+**`rkt-stop`** Stops all running pods.
 
 <!--
 **`docker-stop-all`** Stops all running containers, giving them time to stop.
