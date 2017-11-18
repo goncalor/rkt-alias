@@ -1,0 +1,2 @@
+alias rkt-rm='rkt rm $(rkt list | grep -E "([^[:blank:]]+[[:blank:]]+){3}exited" | cut -f 1)'
+alias rkt-rmi='rkt image rm $(rkt image list | tail -n +2 | grep -v stage1 | cut -f 1)'
